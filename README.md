@@ -1,5 +1,6 @@
 # Graphql Server boilerplate
- 
+<strong>🚀 Bootstrap your GraphQL server within seconds</strong>
+
 ## Features
 - Modular and easily scalable code structure
 - Emphasis on developer experience
