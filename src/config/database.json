@@ -1,0 +1,18 @@
+{
+  "development": {
+    "username": "scientie",
+    "password": "090794ra",
+    "database": "scientie_development",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "seederStorage": "sequelize"
+  },
+  "production": {
+    "username": "your-username",
+    "password": "your-password",
+    "database": "your-database-name",
+    "host": "127.0.0.1",
+    "dialect": "mysql",
+    "seederStorage": "sequelize"
+  }
+}
