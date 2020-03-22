@@ -1,0 +1,25 @@
+{
+  "name": "node-graphql-auth-starter",
+  "version": "1.0.0",
+  "description": "Advanced Graphql boilerplate with authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raphaeljorge/node-graphql-auth-starter.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "graphql",
+    "authentication"
+  ],
+  "author": "Raphael Jorge",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/raphaeljorge/node-graphql-auth-starter/issues"
+  },
+  "homepage": "https://github.com/raphaeljorge/node-graphql-auth-starter#readme"
+}
