@@ -12,7 +12,15 @@
 - [ ] Relay Modern support
 - [ ] File upload
 - [ ] Subscriptions
+- [ ] Typescript-ready
+- [ ] Pagination
+- [ ] Posts example
+- [ ] Report example
 - [ ] And much more...
+
+## Requirements
+- Databases(PostgreSQL, MySQL, MariaDB, SQLite and MSSQL). `Soon a NoSQL version`.
+- NodeJS
 
 ## Installation
 Clone repository:
