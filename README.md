@@ -36,12 +36,12 @@ yarn start
 | File name 　　　　　　　　　　　　　　| Description 　　　　　　　　<br><br>|
 | :--  | :--         |
 | `├── public` | Contains all public files |
-| `└── src` (_directory_) | Contains the source files for your GraphQL server
+| `└── src` (_directory_) | Contains the source files for your GraphQL server |
 | `　　├── config` (_directory_) | Contain server configurations |
 | `　　　　├── database.json` | Contain all database credentials |
 | `　　　　└── server.json` | GraphQL server settings |
 | `　　├── migrations` (_directory_) | Sequelize migration files |
-| `　　├── modules` (_directory_) | Contains GraphQL mutations and queries 
+| `　　├── modules` (_directory_) | Contains GraphQL mutations and queries |
 | `　　　　├── model.js ` | Business structure and logic |
 | `　　　　├── mutations.js ` | Schema mutations |
 | `　　　　├── query.js ` | Schema queries |
