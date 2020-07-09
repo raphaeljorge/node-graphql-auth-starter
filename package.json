@@ -28,29 +28,29 @@
   "author": "Raphael Jorge",
   "license": "MIT",
   "devDependencies": {
-    "@babel/cli": "7.8.4",
-    "@babel/core": "7.9.0",
-    "@babel/node": "7.8.7",
-    "@babel/plugin-transform-runtime": "7.9.0",
-    "@babel/preset-env": "7.9.0",
-    "nodemon": "2.0.2"
+    "@babel/cli": "7.10.4",
+    "@babel/core": "7.10.4",
+    "@babel/node": "7.10.4",
+    "@babel/plugin-transform-runtime": "7.10.4",
+    "@babel/preset-env": "7.10.4",
+    "nodemon": "2.0.4"
   },
   "dependencies": {
-    "@babel/runtime": "7.9.2",
-    "apollo-server-express": "^2.14.2",
-    "bcrypt": "4.0.1",
+    "@babel/runtime": "7.10.4",
+    "apollo-server-express": "^2.15.1",
+    "bcrypt": "5.0.0",
     "body-parser": "1.19.0",
     "cookie-parser": "1.4.5",
     "cors": "2.8.5",
     "dotenv": "8.2.0",
     "express": "4.17.1",
-    "graphql": "14.6.0",
+    "graphql": "15.3.0",
     "jsonwebtoken": "8.5.1",
     "morgan": "1.10.0",
     "multer": "1.4.2",
     "mysql2": "2.1.0",
-    "sequelize": "5.21.5",
-    "sequelize-cli": "5.5.1"
+    "sequelize": "6.3.0",
+    "sequelize-cli": "6.2.0"
   },
   "bugs": {
     "url": "https://github.com/raphaeljorge/node-graphql-auth-starter/issues"

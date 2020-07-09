@@ -4,8 +4,10 @@ import Sequelize from 'sequelize'
 // App Imports
 import databaseConnection from './database'
 
+const UserModel = require('../modules/user/model')
+
 const models = {
-  User: databaseConnection.import('../modules/user/model'),
+  User: UserModel(databaseConnection, Sequelize)
 }
 
 Object.keys(models).forEach(modelName => {
