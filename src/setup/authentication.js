@@ -5,7 +5,7 @@ import serverConfig from '../config/server.json'
 // Authentication middleware
 export default function (request, response, next) {
   let authToken = request.headers.authorization
-
+  
   if (authToken && authToken !== null) {
     try {
       const token = authToken.split(' ')
@@ -16,6 +16,6 @@ export default function (request, response, next) {
   } else {
     request.user = {}
   }
-  //console.log(request.user);
+
   next()
 }

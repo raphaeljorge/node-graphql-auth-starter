@@ -45,12 +45,14 @@
     "dotenv": "8.2.0",
     "express": "4.17.1",
     "graphql": "15.3.0",
+    "graphql-relay": "github:graphql/graphql-relay-js#master",
     "jsonwebtoken": "8.5.1",
     "morgan": "1.10.0",
     "multer": "1.4.2",
     "mysql2": "2.1.0",
     "sequelize": "6.3.0",
-    "sequelize-cli": "6.2.0"
+    "sequelize-cli": "6.2.0",
+    "update": "^0.7.4"
   },
   "bugs": {
     "url": "https://github.com/raphaeljorge/node-graphql-auth-starter/issues"

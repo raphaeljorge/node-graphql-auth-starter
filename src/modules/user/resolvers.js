@@ -73,10 +73,8 @@ export async function getCurrentUser(parent, args, context) {
 }
 
 // Get all
-export async function getAll() {
-  if(!context.auth.isAuthenticated){
-    throw new AuthenticationError('You must be logged in');
-  }
+export async function getAll(parent, args, context, info) {
+
   return await models.User.findAll()
 }
 

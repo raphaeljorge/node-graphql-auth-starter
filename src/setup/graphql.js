@@ -11,7 +11,7 @@ export default function (server) {
   console.info('SETUP - GraphQL...')
 
   server.use(authentication)
-
+  
   const graphqlServer = new ApolloServer({ 
     schema, 
     context: ({ req }) => {
@@ -19,10 +19,10 @@ export default function (server) {
          auth: {
            user: req.user,
            isAuthenticated: req.user && req.user.id > 0
-         }
+         },
        }
      },
-    debug: false
+    debug: true
   })
   graphqlServer.applyMiddleware({ 
     app: server, 

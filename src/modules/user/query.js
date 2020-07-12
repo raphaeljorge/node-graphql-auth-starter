@@ -1,14 +1,15 @@
 // Imports
-import { GraphQLInt, GraphQLString, GraphQLList } from 'graphql'
+import { GraphQLList, GraphQLObjectType, GraphQLInt, GraphQLNonNull, GraphQLString } from 'graphql'
 
 // App Imports
-import { UserType, UserLoginType } from './types'
+import  { UserType, UserListType, UserLoginType } from './types'
 import { getAll, getById, login, getCurrentUser } from './resolvers'
 
 // All
-export const users = {
-  type: new GraphQLList(UserType),
-  resolve: getAll
+export const userList = {
+  type: UserListType,
+  description: 'Get all users',
+  resolve: (context) => getAll(context),
 }
 
 // By ID
